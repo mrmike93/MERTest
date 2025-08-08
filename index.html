@@ -1,125 +1,74 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Maine Event Rentals — New Site Preview</title>
-  <meta name="description" content="Wedding & party tents, tables & chairs, dance floors, lighting, and pro sound serving ~2 hours around Bangor, Maine.">
-  <link rel="stylesheet" href="styles.css">
-  <script defer src="script.js"></script>
-  <script type="application/ld+json">
-  {"@context": "https://schema.org", "@type": "LocalBusiness", "name": "Maine Event Rentals", "address": {"@type": "PostalAddress", "addressLocality": "Bangor", "addressRegion": "ME"}, "areaServed": "~2 hours around Bangor, ME", "telephone": "+12074030707", "url": "https://maineeventrentals.net", "sameAs": ["https://www.facebook.com/maineeventrentals/"]}
-  </script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maine Event Rentals — Shock & Awe Preview</title>
+<link rel="stylesheet" href="styles.css">
+<script>
+var GALLERY = ['assets/images/shot_06.webp','assets/images/shot_07.webp','assets/images/shot_08.webp','assets/images/shot_09.webp','assets/images/shot_10.webp','assets/images/shot_11.webp','assets/images/shot_12.webp','assets/images/shot_13.webp','assets/images/shot_14.webp','assets/images/shot_15.webp','assets/images/shot_16.webp','assets/images/shot_17.webp','assets/images/shot_18.webp','assets/images/shot_19.webp','assets/images/shot_20.webp','assets/images/shot_21.webp','assets/images/shot_22.webp','assets/images/shot_23.webp','assets/images/shot_24.webp'];
+</script>
+<script defer src="script.js"></script>
 </head>
 <body>
 <header>
   <div class="nav">
     <div class="brand">
-      <span class="logo" aria-hidden="true"></span>
+      <span class="logo"></span>
       <div class="title">
-        <span class="kicker">Serving ~2 hours around Bangor, ME</span>
+        <span class="kicker">Bangor, Maine • Weddings • Parties • Live Events</span>
         <h1>Maine Event Rentals</h1>
       </div>
     </div>
-    <div class="buttons">
-      <a class="button secondary" href="#catalog">Rentals</a>
+    <div>
+      <a class="button secondary" href="#gallery">Gallery</a>
       <a class="button" href="#quote">Get a Quote</a>
     </div>
   </div>
 </header>
 
 <section class="hero">
-  <img src="assets/images/tent_wide_field.webp" alt="White wedding tent at sunset">
+  <img src="assets/images/shot_06.webp" alt="Event tent hero">
   <div class="inner">
-    <h2>Weddings • Parties • Live Events — Covered</h2>
-    <p>Clean white tents, tables & chairs, lighting, dance floors, and professional sound for crowds up to 5,000.</p>
+    <h2>Shock & Awe: This is what your event looks like with us.</h2>
+    <p>Crystal‑clear roof options, bistro lighting, clean lines, and setups that actually photograph beautifully. Serving ~2 hours around Bangor, ME.</p>
     <a class="button" href="#quote">Start Your Quote</a>
   </div>
 </section>
 
-<section class="container split" id="quote">
-  <div>
-    <div class="section-head"><h3>Instant Quote (Preview)</h3><span class="badge">Demo pricing</span></div>
-    <div class="quote">
-      <div class="row">
-        <div><label>Date</label><input type="date"></div>
-        <div><label>Location</label><input type="text" placeholder="Bangor, ME"></div>
-        <div><label>Guest Count</label><input type="number" placeholder="150"></div>
-      </div>
-      <div class="row">
-        <div>
-          <label>Choose a Package</label>
-          <select onchange="if(this.value) addPackageToQuote(this.value)">
-            <option value="">-- Optional --</option>
-            <option value="party-20">20 Guest Party — $399</option>
-            <option value="party-40">40 Guest Party — $549</option>
-            <option value="party-60">60 Guest Party — $699</option>
-            <option value="wed-eco-50">Economy 50 Wedding — $1385</option>
-            <option value="wed-pole-100">100 Guest Pole — $3450</option>
-            <option value="wed-pole-150">150 Guest Pole — $4175</option>
-            <option value="wed-pole-200">200 Guest Pole — $5075</option>
-          </select>
-        </div>
-        <div><label>Delivery Distance (mi)</label><input id="miles" type="number" value="40" oninput="renderSummary()"></div>
-        <div><label>Notes</label><input type="text" placeholder="Sidewalls, power, timing..."></div>
-      </div>
-      <div class="summary">
-        <div style="font-weight:700">Items in Quote</div>
-        <div class="small">Add items below; totals update live</div>
-      </div>
-      <div id="summary-list" class="container" style="padding:0"></div>
-      <div class="summary"><div>Subtotal</div><div id="subtotal">$0.00</div></div>
-      <div class="summary"><div>Estimated Delivery</div><div id="delivery">$0.00</div></div>
-      <div class="summary"><div style="font-weight:800">Estimated Total</div><div id="total">$0.00</div></div>
-      <div style="display:flex;gap:10px;justify-content:flex-end">
-        <button class="button secondary">Save as PDF (coming)</button>
-        <button class="button">Submit Quote (wire up)</button>
-      </div>
+<section class="container" id="quote">
+  <div class="section-head"><h3>Instant Quote (Preview)</h3><span>Demo pricing</span></div>
+  <div class="quote">
+    <div class="row">
+      <div><label>Date</label><input type="date"></div>
+      <div><label>Location</label><input type="text" placeholder="Bangor, ME"></div>
+      <div><label>Guest Count</label><input type="number" placeholder="150"></div>
     </div>
-  </div>
-  <div>
-    <div class="section-head"><h3>Service Area (~2 hrs)</h3></div>
-    <div id="map" class="map"></div>
-  </div>
-</section>
+    <div class="row">
+      <div><label>Add 40x60 Pole Tent</label><button class="button" onclick="addToQuote('tents','pole-40x60')">Add</button></div>
+      <div><label>Add 8ft Tables</label><button class="button" onclick="addToQuote('tables','table-8ft')">Add</button></div>
+      <div><label>Add White Chairs</label><button class="button" onclick="addToQuote('chairs','chair-white')">Add</button></div>
+    </div>
+    <div class="row">
+      <div><label>Delivery Distance (mi)</label><input id="miles" type="number" value="40" oninput="renderSummary()"></div>
+      <div></div><div></div>
+    </div>
 
-<section class="container" id="catalog">
-  <div class="section-head"><h3>Rentals</h3></div>
-  <div id="tabs" class="tabs"></div>
-  <div id="grid" class="grid"></div>
-</section>
-
-<section class="container" id="packages">
-  <!-- packages will render here -->
+    <div id="summary-list"></div>
+    <div class="summary"><div>Subtotal</div><div id="subtotal">$0.00</div></div>
+    <div class="summary"><div>Estimated Delivery</div><div id="delivery">$0.00</div></div>
+    <div class="summary"><div style="font-weight:800">Estimated Total</div><div id="total">$0.00</div></div>
+  </div>
 </section>
 
 <section class="container">
   <div class="section-head"><h3>Recent Setups</h3></div>
-  <div class="gallery">
-    <img src="assets/images/tent_wide_field.webp" alt="Pole tent setup wide field">
-    <img src="assets/images/tent_van.webp" alt="Tent setup with service van">
-    <img src="assets/images/tent_close_right.webp" alt="Tent with sidewalls">
-    <img src="assets/images/tent_close_left.webp" alt="Tent with sidewalls alt view">
-    <img src="assets/images/backyard_tent.webp" alt="Backyard frame tent">
-    <img src="assets/images/interior_hero.webp" alt="Interior with bistro lights">
-  </div>
-</section>
-
-<section class="container">
-  <div class="section-head"><h3>FAQ</h3></div>
-  <dl class="faq">
-    <dt>Do package prices include setup?</dt>
-    <dd>Yes — packages include tent setup and teardown. Delivery priced separately.</dd>
-    <dt>Do you offer pole and frame tents?</dt>
-    <dd>Yep. Pole tents (economical, need staking) and gable-end frame tents (flexible layouts). Sidewalls available.</dd>
-    <dt>How far do you travel?</dt>
-    <dd>Roughly a 2‑hour radius from Bangor, ME. Delivery fees are calculated by distance.</dd>
-  </dl>
+  <div id="gallery" class="gallery"></div>
 </section>
 
 <footer class="footer">
-  <div>© Maine Event Rentals • Bangor, ME • <a href="tel:12074030707">207‑403‑0707</a> • <a href="mailto:maineeventrentals@yahoo.com">maineeventrentals@yahoo.com</a></div>
-  <div class="small">Working preview. Pricing/inventory pulled from current public site; delivery & totals are estimates.</div>
+  <div>© Maine Event Rentals • 207‑403‑0707 • maineeventrentals@yahoo.com</div>
+  <div class="small">Working preview with optimized images for fast sharing.</div>
 </footer>
 </body>
 </html>
