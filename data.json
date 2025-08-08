@@ -1,0 +1,326 @@
+{
+  "tents": [
+    {
+      "id": "pole-20x20",
+      "type": "pole",
+      "name": "20x20 Pole Tent",
+      "size": "20x20",
+      "price": 250
+    },
+    {
+      "id": "pole-20x30",
+      "type": "pole",
+      "name": "20x30 Pole Tent",
+      "size": "20x30",
+      "price": 350
+    },
+    {
+      "id": "pole-20x40",
+      "type": "pole",
+      "name": "20x40 Pole Tent",
+      "size": "20x40",
+      "price": 450
+    },
+    {
+      "id": "pole-30x50",
+      "type": "pole",
+      "name": "30x50 Pole Tent",
+      "size": "30x50",
+      "price": 1050
+    },
+    {
+      "id": "pole-40x40",
+      "type": "pole",
+      "name": "40x40 Pole Tent",
+      "size": "40x40",
+      "price": 1050
+    },
+    {
+      "id": "pole-40x60",
+      "type": "pole",
+      "name": "40x60 Pole Tent",
+      "size": "40x60",
+      "price": 1400
+    },
+    {
+      "id": "pole-40x80",
+      "type": "pole",
+      "name": "40x80 Pole Tent",
+      "size": "40x80",
+      "price": 1750
+    },
+    {
+      "id": "pole-40x100",
+      "type": "pole",
+      "name": "40x100 Pole Tent",
+      "size": "40x100",
+      "price": 2100
+    },
+    {
+      "id": "pole-40x120",
+      "type": "pole",
+      "name": "40x120 Pole Tent",
+      "size": "40x120",
+      "price": 2450
+    },
+    {
+      "id": "frame-10x20",
+      "type": "frame",
+      "name": "10x20 Pop-Up Tent",
+      "size": "10x20",
+      "price": 175
+    },
+    {
+      "id": "frame-40x40",
+      "type": "frame",
+      "name": "40x40 Frame Tent",
+      "size": "40x40",
+      "price": 2200
+    },
+    {
+      "id": "frame-40x60",
+      "type": "frame",
+      "name": "40x60 Frame Tent",
+      "size": "40x60",
+      "price": 2700
+    },
+    {
+      "id": "frame-40x80",
+      "type": "frame",
+      "name": "40x80 Frame Tent",
+      "size": "40x80",
+      "price": 3200
+    },
+    {
+      "id": "frame-40x100",
+      "type": "frame",
+      "name": "40x100 Frame Tent",
+      "size": "40x100",
+      "price": 3700
+    },
+    {
+      "id": "frame-40x120",
+      "type": "frame",
+      "name": "40x120 Frame Tent",
+      "size": "40x120",
+      "price": 4200
+    }
+  ],
+  "sidewalls": [
+    {
+      "id": "side-pole",
+      "type": "pole",
+      "name": "Sidewalls (per ft) - Pole",
+      "price": 2.0
+    },
+    {
+      "id": "side-frame",
+      "type": "frame",
+      "name": "Sidewalls (per ft) - Frame (solid/clear/cathedral)",
+      "price": 3.0
+    }
+  ],
+  "tables": [
+    {
+      "id": "table-round60",
+      "name": "5ft Round Table (Plastic)",
+      "price_min": 12,
+      "price_max": 15
+    },
+    {
+      "id": "table-hightop30",
+      "name": "30in Round High Top (Wood)",
+      "price_min": 13.6,
+      "price_max": 17.0
+    },
+    {
+      "id": "table-rect8",
+      "name": "8ft x 2.5ft Rectangle (Plastic)",
+      "price_min": 9.6,
+      "price_max": 12.0
+    },
+    {
+      "id": "table-rect6",
+      "name": "6ft x 2.5ft Rectangle (Plastic)",
+      "price_min": 8.0,
+      "price_max": 10.0
+    },
+    {
+      "id": "table-farm9x40",
+      "name": "9' x 40\" Farm Table (Wood)",
+      "price": 85.0
+    }
+  ],
+  "chairs": [
+    {
+      "id": "chair-resin-white",
+      "name": "White Resin Padded (1000 lb)",
+      "price_min": 4.0,
+      "price_max": 5.0
+    },
+    {
+      "id": "chair-fruitwood-padded",
+      "name": "Fruitwood Padded",
+      "price_min": 4.8,
+      "price_max": 6.0
+    },
+    {
+      "id": "chair-fanback-white",
+      "name": "White Fanback Plastic",
+      "price_min": 2.0,
+      "price_max": 2.5
+    },
+    {
+      "id": "chair-flatback-white",
+      "name": "White Flatback",
+      "price_min": 2.0,
+      "price_max": 2.5
+    },
+    {
+      "id": "chair-flatback-black",
+      "name": "Black Flatback",
+      "price_min": 1.6,
+      "price_max": 2.0
+    }
+  ],
+  "dancefloors": [
+    {
+      "id": "df-9x9",
+      "size": "9x9",
+      "price_min": 144,
+      "price_max": 180
+    },
+    {
+      "id": "df-9x12",
+      "size": "9x12",
+      "price_min": 192,
+      "price_max": 240
+    },
+    {
+      "id": "df-12x12",
+      "size": "12x12",
+      "price_min": 256,
+      "price_max": 320
+    },
+    {
+      "id": "df-12x15",
+      "size": "12x15",
+      "price_min": 320,
+      "price_max": 400
+    },
+    {
+      "id": "df-15x15",
+      "size": "15x15",
+      "price_min": 400,
+      "price_max": 500
+    }
+  ],
+  "packages_party": [
+    {
+      "id": "party-20",
+      "name": "20 Guest Party Package",
+      "price": 399,
+      "includes": [
+        "20x20 Pole Tent",
+        "Lighting",
+        "60' Economy Sidewalls",
+        "2\u00d7 6' Rect Tables (food)",
+        "2\u00d7 8' Rect Tables (seating)",
+        "20\u00d7 Black Flatback Chairs",
+        "4\u00d7 Disposable Tablecloths"
+      ],
+      "upsell": "Sub white flatback chairs +$10"
+    },
+    {
+      "id": "party-40",
+      "name": "40 Guest Party Package",
+      "price": 549,
+      "includes": [
+        "20x30 Pole Tent",
+        "Lighting",
+        "70' Economy Sidewalls",
+        "2\u00d7 6' Rect Tables (food)",
+        "4\u00d7 8' Rect Tables (seating)",
+        "40\u00d7 Black Flatback Chairs",
+        "6\u00d7 Disposable Tablecloths"
+      ],
+      "upsell": "Sub white flatback chairs +$20"
+    },
+    {
+      "id": "party-60",
+      "name": "60 Guest Party Package",
+      "price": 699,
+      "includes": [
+        "20x40 Pole Tent",
+        "Lighting",
+        "80' Economy Sidewalls",
+        "3\u00d7 6' Rect Tables (food)",
+        "6\u00d7 8' Rect Tables (seating)",
+        "60\u00d7 Black Flatback Chairs",
+        "9\u00d7 Disposable Tablecloths"
+      ],
+      "upsell": "Sub white flatback chairs +$30"
+    }
+  ],
+  "packages_wedding": [
+    {
+      "id": "wed-eco-50",
+      "name": "Economy 50 Guest Pole",
+      "price": 1385,
+      "includes": [
+        "20x40 Pole Tent",
+        "60' Solid + 60' Cathedral Sidewalls",
+        "Basic Tent Lighting",
+        "9x12 Dance Floor",
+        "50 White Fanback Chairs",
+        "2\u00d7 8' Rect Tables (Food)",
+        "2\u00d7 6' Rect Tables (DJ & Cake/Gifts)",
+        "6\u00d7 5' Round Tables (Seating)",
+        "White Tablecloths & 50 Napkins"
+      ],
+      "upsells": [
+        "Sub Resin Padded Chairs +$2.50/ea"
+      ]
+    },
+    {
+      "id": "wed-pole-50",
+      "name": "50 Guest Pole Tent Package",
+      "price": 2650
+    },
+    {
+      "id": "wed-pole-100",
+      "name": "100 Guest Pole Tent Package",
+      "price": 3450
+    },
+    {
+      "id": "wed-pole-150",
+      "name": "150 Guest Pole Tent Package",
+      "price": 4175
+    },
+    {
+      "id": "wed-pole-200",
+      "name": "200 Guest Pole Tent Package",
+      "price": 5075
+    },
+    {
+      "id": "wed-frame-50",
+      "name": "50 Guest Frame Tent Package",
+      "price": 3800
+    },
+    {
+      "id": "wed-frame-100",
+      "name": "100 Guest Frame Tent Package",
+      "price": 4775
+    },
+    {
+      "id": "wed-frame-150",
+      "name": "150 Guest Frame Tent Package",
+      "price": 5750
+    },
+    {
+      "id": "wed-frame-200",
+      "name": "200 Guest Frame Tent Package",
+      "price": 6800
+    }
+  ]
+}
